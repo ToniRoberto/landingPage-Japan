@@ -1,0 +1,533 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.confBgColorNav{
+    width: 100%;
+    background-color: #054C8E;
+}
+.logoImg{
+    width: 150px;
+    margin-left: 45%;
+}
+.confAdd{
+    margin-left: 50%;
+}
+.navMenuItens{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+.navMenuItens a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.cabecalho {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    margin: -1px 0;
+    background: #054C8E;
+    border-radius: 50% / 10%;
+    text-align: center;
+    text-indent: .1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cabecalho:before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    bottom: 10%;
+    right: 0%;
+    left: -5%;
+    background: inherit;
+    border-radius: 5% / 50%;
+}
+.sessao1{
+    position: relative;
+    height: 80vh;
+    width: 6%;
+    display: flex;
+    align-items: flex-end;
+}
+.sessao1 img{
+    height: 300px;
+}
+.sessao2{
+    position: relative;
+    height: 80vh;
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4%;
+  }
+  .sessao2 h1{
+    width: 625px;
+    text-align: left;
+    font-size: 46px;
+    color: #fff;
+    line-height: 58px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .sessao2 span{
+    color: #FFD335;
+  }
+  .sessao2 button{
+    margin-top: 15px;
+    width: 250px;
+    background-color: #fff;
+    color: #054C8E;
+    border-radius: 10px;
+  }
+  .sessao3{
+    position: relative;
+    height: 80vh;
+    width: 44%;
+    display: flex;
+    padding-top: 68px;
+    padding-left: 35px;
+  }
+  .fundoSs3{
+    height: 470px;
+    margin-top: 20px;
+    margin-left: 10px;
+    z-index: 1;
+    position: relative;
+  }
+  .celularSs3{
+    z-index: 2;
+    position: absolute;
+    padding-left: 17%;
+    margin-top: 5px;
+  }
+  .sessao4{
+    position: relative;
+    background-color: #054C8E;
+    height: 780px;
+    width: 6.5%;
+    display: flex;
+    align-items: flex-end;
+  }
+  .sessao4 img{
+    height: 300px;
+  }
+  .boxRodape{
+    z-index: 2;
+    position: absolute;
+    width: 1200px;
+    bottom: 100px;
+    background-color: rgb(0, 48, 91);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+  }
+  .imgBoxRodape{
+    margin-left: 12px;
+  }
+  .txtBoxRodape{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+  }
+  .txtBoxRodape h3{
+    font-size: 24pt;
+  }
+  .txtBoxRodape p{
+    font-size: 13pt;
+  }
+  .img2BoxRodape{
+    width: 100px;
+    top: -100px;
+    z-index: 2;
+    position: absolute;
+    margin-left: 1080px;
+  }
+.textPlusJapan{
+    width: 100%;
+    padding-left: 152px;
+    padding-right: 152px;
+    padding-top: 55px;
+}
+.descricaoPlusJapn h2{
+  color: #002E57;
+  padding-bottom: 10px;
+}
+.descricaoPlusJapn p{
+  font-size: 20px;
+}
+.topicosPlusJapan{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  width: 1120px;
+  gap: 20px;
+}
+.termosMedicos{
+  width: 363px;
+  height: 360px;
+  background-color: #054C8E;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 30px;
+  border-radius: 30px;
+  padding-top: 35px;
+}
+.termosMedicos img{
+  width: 55px;
+}
+.termosMedicos h2{
+  font-size: 31px;
+  color: #fff;
+}
+.termosMedicos p{
+  width: 250px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+.vocabularioEssencial{
+  width: 363px;
+  height: 360px;
+  background-color: #1D8AEF;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 30px;
+  border-radius: 30px;
+  padding-top: 35px;
+}
+.vocabularioEssencial img{
+  width: 55px;
+}
+.vocabularioEssencial h2{
+  font-size: 31px;
+  color: #fff;
+}
+.vocabularioEssencial p{
+  width: 260px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+.cursoDeJapan{
+  width: 363px;
+  height: 360px;
+  background-color: #00305B;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 30px;
+  border-radius: 30px;
+  padding-top: 35px;
+}
+.cursoDeJapan img{
+  width: 55px;
+}
+.cursoDeJapan h2{
+  font-size: 31px;
+  color: #fff;
+}
+.cursoDeJapan p{
+  width: 265px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+.cursoDeJapanImgSmille{
+  z-index: 2;
+  position: relative;
+  margin-left: 385px;
+  margin-top: 1px;
+}
+
+.opcapEscolha{
+  margin-top: 80px;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+}
+.opcapEscolhaImg{
+  width: 15%;
+  margin-left: 85%;
+}
+.opcapEscolhaImg img{
+  width: 100%;
+}
+.descFocadoAtualizacao{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  z-index: 2;
+  position: absolute;
+  margin-top: -220px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.descFocadoAtualizacao h3{
+  width: 100%;
+  color: #00305B;
+}
+.sessoesDesc{
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.descFocadoAtualizacaoImg{
+  background-color: #E3EEF5;
+  z-index: 1;
+  position: relative;
+  border-radius: 20px 0px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 370px;
+}
+.iconeTop{
+  z-index: 2;
+  margin-top: -370px;
+  margin-left: -70px;
+  margin-right: 26px;
+}
+.descFocadoAtualizacaoTxt{
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 0px 20px 20px 0px;
+}
+.descFocadoAtualizacaoTxt span{
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 14pt;
+}
+.focado{
+  margin-bottom: 18px;
+}
+.atualizacao{
+  width: 500px;
+  margin-left: -33px;
+}
+.descFocadoAtualizacaoTxt p{
+  font-size: 13pt;
+}
+.descFocadoAtualizacaoImg{
+  width: 590px;
+}
+.descFocadoAtualizacaoTxt{
+  width: 590px;
+}
+.descFocadoAtualizacaoTxt button{
+  width: 100%;
+  background-color: #054C8E;
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: 20px;
+}
+.beneficios{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 140px;
+}
+.imgFundo{
+  width: 300px;
+  z-index: 1;
+  position: relative;
+}
+.imgFundo img{
+  width: 100%;
+}
+.containerDadosBeneficios{
+  z-index: 2;
+  position: absolute;
+  width: 1000px;
+  margin-left: 150px;
+  margin-top: 15px;
+}
+.containerDadosBeneficios h3{
+  color: #00305B;
+}
+.beneficio01{
+  background-color: #F6F6F6;
+  padding: 19px;
+  padding-right: 49px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: 35px;
+  width: 1180px;
+  
+}
+.beneficio01 img{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+.beneficio01 p{
+  margin-left: 25px;
+  font-size: 14pt;
+}
+.app{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #054C8E;
+  margin-top: 45px;
+  padding: 25px;
+  height: 230px;
+  color: #fff;
+  border-radius: 15px;
+  width: 1180px;
+}
+.emogiTexto{
+  display: flex;
+  flex-direction: column; 
+  gap: 5px;
+  width: 700px;
+}
+.emogiTexto img{
+  width: 40px;
+}
+.emogiTexto p{
+  width: 520px;
+  font-size: 14pt;
+}
+.emogiTexto h3{
+  color: #fff;
+  font-size: 16pt;
+}
+.logosLogas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  width: 490px;
+  gap: 20px;
+}
+.logosLogas h3{
+  width: 100%;
+  font-size: 14pt;
+  color: #fff;
+}
+.logosLogas img{
+  width: 110px;
+}
+.rodapePlusJapan{
+  background-color: #00305B;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+}
+.imgLogoEmpresaFooter{
+  width: 180px;
+  margin-bottom: 40px;
+}
+.redesSociais{
+  color: #fff;
+  width: 750px;
+  margin-left: 150px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.whatsapp span{
+  margin-left: 6px;
+  font-size: 14pt;
+}
+.whatsapp p{
+  width: 450px;
+  font-size: 13pt;
+}
+.whatsapp img{
+  margin-top: -8px;
+}
+.messenge span{
+  margin-left: 6px;
+  font-size: 14pt;
+}
+.messenge p{
+  width: 440px;
+  font-size: 13pt;
+}
+.messenge img{
+  margin-top: -8px;
+}
+.instagram span{
+  margin-left: 6px;
+  font-size: 14pt;
+}
+.instagram p{
+  width: 440px;
+  font-size: 13pt;
+}
+.instagram img{
+  margin-top: -8px;
+}
+.disposicaoFooter{
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
+.caixaTexto{
+  background-color: #fff;
+  margin-left: 40px;
+  width: 500px;
+  height: 230px;
+  padding: 25px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+  z-index: 1;
+  color: #00305B;
+}
+.caixaTexto h5{
+  font-size: 15pt;
+}
+.caixaTexto p{
+  font-size: 13pt;
+}
+.caixaTexto img{
+  width: 30px;
+}
+.imgSelfFooter{
+  margin-left: -35px;
+}
+footer{
+  width: 100%;
+  height: 70px;
+  background-color: #002546;
+  color: #fff;
+  padding-top: 25px;
+  padding-left: 150px;
+}

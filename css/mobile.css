@@ -1,0 +1,342 @@
+@media (max-width: 420px){
+    .logoImg{
+        margin-left: 8px;
+    }
+    /*Colocar configuração botão menu*/
+    .confBgColorNav{
+        width: 100%;
+    }
+    .confAdd{
+        background-color: #fff;
+        margin-left: 0px;
+    }
+    .navMenuItens{
+        width: 100%;
+        display: block;
+        margin-top: 10px;
+    }
+    .navMenuItens li{
+        margin-bottom: 10px;
+        text-align: right;
+        margin-right: 20px;
+    }
+    .navMenuItens li a{
+        color: black;
+    }
+    .cabecalho{
+        position: relative;
+    width: 100%;
+    height: 780px;
+    margin: -1px 0;
+    background: #054C8E;
+    border-radius: 50% / 3%;
+    text-align: center;
+    text-indent: .1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    .cabecalho:before {
+        content: '';
+        position: absolute;
+        top: 0%;
+        bottom: 10%;
+        right: -10%;
+        left: -5%;
+        background: inherit;
+        border-radius: 5% / 50%;
+    }
+    .sessao1{
+        display: none;
+    }
+    .sessao2{
+        width: 93%;
+        height: 380px;
+        margin-left: -20px;
+    }
+    .sessao2 h1{
+        font-size: 30px;
+        width: 320px;
+        line-height: 40px;
+    }
+    .sessao2 button{
+        width: 100%;
+        height: 50px;
+        border-radius: 15px;
+    }
+    .sessao3{
+        display: none;
+    }
+    .sessao4{
+        display: none;
+    }
+    .boxRodape{
+        width: 382px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .imgBoxRodape img{
+        width: 30px;
+        margin-left: 2px;
+    }
+    .txtBoxRodape h3{
+        font-size: 17pt;
+    }
+    .txtBoxRodape p{
+        font-size: 13pt;
+    }
+    .txtBoxRodape span{
+        color: #FFD335;
+    }
+    .img2BoxRodape{
+        margin-left: 250px;
+    }
+    .textPlusJapan{
+        padding-left: 25px;
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .descricaoPlusJapn{
+        width: 390px;
+    }
+    .descricaoPlusJapn p{
+        font-size: 13pt;
+    }
+    .topicosPlusJapan{
+        display: flex;
+        flex-direction: column;
+    }
+    .termosMedicos{
+        width: 368px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .termosMedicos img{
+        width: 40px;
+    }
+    .termosMedicos h2{
+        font-size: 25px;
+    }
+    .termosMedicos p{
+        width: 300px;
+        font-size: 15px;
+    }
+    .vocabularioEssencial{
+        width: 368px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .vocabularioEssencial img{
+        width: 40px;
+    }
+    .vocabularioEssencial h2{
+        font-size: 25px;
+    }
+    .vocabularioEssencial p{
+        width: 300px;
+        font-size: 15px;
+    }
+    .cursoDeJapan{
+        width: 368px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .cursoDeJapan img{
+        width: 40px;
+    }
+    .cursoDeJapan h2{
+        font-size: 25px;
+    }
+    .cursoDeJapan p{
+        width: 300px;
+        font-size: 15px;
+    }
+    .cursoDeJapanImgSmille{
+        display: none;
+    }
+    .opcapEscolha{
+        height: 950px;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .opcapEscolhaImg{
+        display: none;
+    }
+    .descFocadoAtualizacao{
+        margin-top: 0px;
+        padding-left: 28px;
+    }
+    .sessoesDesc{
+        display: flex;
+        flex-direction: column;
+    }
+    .descFocadoAtualizacaoImg{
+        border-radius: 20px 20px 0px 0px;
+        width: 370px;
+        background-image: url("../componentes/Open\ Doodles\ Reading.png");
+    }
+    .iconeTop{
+        display: none;
+    }
+    .descFocadoAtualizacaoImg img{
+        display: none;
+    }
+    .descFocadoAtualizacaoTxt{
+        width: 370px;
+        border-radius: 0px 0px 20px 20px;
+    }
+    .focado{
+        width: 340px;
+    }
+    .atualizacao{
+        width: 340px;
+        margin-left: 5px;
+    }
+    .descFocadoAtualizacaoTxt button{
+        height: 55px;
+    }
+    .imgFundoMobile{
+        width: 330px;
+        padding-top: 440px;
+        margin-left: -89px;
+    }
+    .beneficios{
+        width: 100%;
+        height: 1270px;
+    }
+    .containerDadosBeneficios{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        width: 370px;
+        margin-top: 35px;
+    }
+    .beneficio01{
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-top: 35px;
+        padding-left: 0px;
+        padding-right: 18px;
+    }
+    .beneficio01 img{
+        width: 50px;
+        padding-left:  12px;
+        margin-bottom: 15px;
+    }
+    .beneficio01 p{
+        width: 315px;
+        font-size: 13pt;
+    }
+    .app{
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        height: 700px;
+    }
+    .emogiTexto{
+        width: 370px;
+        padding: 25px;
+    }
+    .emogiTexto p{
+        width: 100%;
+        font-size: 13pt;
+    }
+    .telaCelularLinks{
+        width: 370px;
+        height: 300px;
+        bottom: 35px;
+        margin-top: 25px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .telaCelularLinks img{
+        z-index: 2;
+        position: absolute;
+        height: 220px;
+    }
+    .fundoMobileBeneficios{
+        width: 230px;
+        height: 270px;
+        z-index: 1;
+    }
+    .logosLogas{
+        width: 370px;
+        height: 200px;
+        padding-left: 25px;
+        display: flex;
+        flex-direction: row;
+    }
+    .rodapePlusJapan{
+        width: 100%;
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        margin-top: -110px;
+    }
+    .redesSociais{
+        width: 370px;
+        margin-left: 0px;
+    }
+    .redesSociais p{
+        width: 90%;
+    }
+    .titulo{
+        color: #FFD335;
+    }
+    .disposicaoFooter{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: -25px;
+    }
+    .caixaTexto{
+        z-index: 2;
+        position: relative;
+        width: 370px;
+        height: 250px;
+        margin-left: 0px;
+        padding-top: 55px;
+    }
+    .imgSelfFooter{
+        z-index: 1;
+        position: absolute;
+        margin-top: -190px;
+        width: 370px;
+    }
+    .imgSelfFooter img{
+        width: 180px;
+        margin-left: 210px;
+    }
+    .rodapeMobile{
+        width: 100%;
+        height: 80px;
+        padding: 25px;
+        text-align: center;
+        font-size: 14pt;
+    }
+    .imgFundo{
+        display: none;
+    }
+}
+@media (min-width: 420px){
+    .imgFundoMobile{
+        display: none;
+      }
+      .fundoMobileBeneficios{
+        display: none;
+      }
+}
